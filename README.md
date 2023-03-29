@@ -1,7 +1,6 @@
+
+# Android 橙色购物软件
 # OrangeSale_02
-# FamilyEducation
-Android 橙色购物软件
-# Android_FamilyEducation
 
 SDK: compileSdk 33、targetSdk 33
 Android Studio version: 11.0.13+0-b1751.21-8125866 aarch64
