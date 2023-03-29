@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.IndexActivity">
+    <!--底部bar-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bv_bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@drawable/b_nav_selector"
+        app:itemTextColor="@drawable/b_nav_selector"
+        app:menu="@menu/main_b_nav"
+        app:labelVisibilityMode="labeled"/>
+    <!--底部bar分割线-->
+    <View
+        android:id="@+id/div_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_above="@id/bv_bottomNavigation"
+        android:background="@color/orange" />
+    <!--底部bar对应的fragment-->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/div_tab_bar" />
+</RelativeLayout>

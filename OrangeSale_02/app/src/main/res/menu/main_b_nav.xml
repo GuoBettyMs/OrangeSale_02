@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_shouye"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom"
+        android:title="首页" />
+    <item
+        android:id="@+id/menu_product"
+        android:enabled="true"
+        android:icon="@drawable/commodity"
+        app:showAsAction="ifRoom"
+        android:title="商品" />
+    <item
+        android:id="@+id/menu_cart"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/shopping_cart"
+        android:title="购物车" />
+    <item
+        android:id="@+id/menu_profile"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/user"
+        android:title="我" />
+</menu>

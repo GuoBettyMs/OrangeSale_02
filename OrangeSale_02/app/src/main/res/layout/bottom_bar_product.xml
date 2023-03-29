@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".fragment.BottomBar_product">
+    <ListView
+        android:id="@+id/lv_left"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:background="@color/yellow">
+    </ListView>
+    <se.emilsjolander.stickylistheaders.StickyListHeadersListView
+        android:id="@+id/lv_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/lv_left"
+        android:background="@color/design_default_color_surface"
+        android:divider="#00000000">
+    </se.emilsjolander.stickylistheaders.StickyListHeadersListView>
+</LinearLayout>
