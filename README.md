@@ -1,6 +1,5 @@
 
-# Android 橙色购物软件
-# OrangeSale_02
+# Android OrangeSale_02
 
 SDK: compileSdk 33、targetSdk 33
 Android Studio version: 11.0.13+0-b1751.21-8125866 aarch64
